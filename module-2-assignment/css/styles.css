@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 style.css
 
 /*basic style*/
@@ -9,6 +10,17 @@ style.css
         background-color: white;
     }
 
+=======
+/*basic style*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+    }
+
+>>>>>>> ecd731600d17e9feebb5462d254fdd81a91db0f8
     h1 {
        margin-bottom: 15px;
     text-align: center;
@@ -124,4 +136,8 @@ style.css
             float: left;
             width: 100%;
         }
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> ecd731600d17e9feebb5462d254fdd81a91db0f8
