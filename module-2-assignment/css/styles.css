@@ -1,30 +1,16 @@
-styles.css
-
-/*basic style*/
-    * {
+* {
         box-sizing: border-box;
+        font-family: cursive;
     }
-
     body {
         background-color: white;
     }
 
-=======
-/*basic style*/
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        background-color: white;
-    }
-
->>>>>>> ecd731600d17e9feebb5462d254fdd81a91db0f8
     h1 {
        margin-bottom: 15px;
     text-align: center;
-    color: #ff4532;
-    font-size: 50px;
+    color: solid.black;
+    font-size: 175%;
     }
 
     section {
@@ -40,60 +26,59 @@ styles.css
 
     div {
         position: relative;
-        background-color: gray;
-        border: 3.5px solid black;
+        background-color: #909090;
+        border: 3px solid black;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
     }
 
-    .sub1 {
+    .sec1 {
         float: right;
-        width: 100px;
+        width: 175px;
         padding: 5px;
         margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FFB6C1;
+        background-color: #FFBAD5;
 
     }
 
-    .sub2 {
+    .sec2 {
         float: right;
         color: white;
-        width: 100px;
+        width: 175px;
         padding: 5px;
         margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FF0000;
+        background-color: #FF4040;
 
     }
 
-    .sub3 {
+    .sec3 {
         color: black;
         float: right;
-        width: 100px;
+        width: 175px;
         padding: 5px;
          margin: -3px -3px 0px;
-        border: 3.5px solid black;
+        border: 3px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: rgb(223, 212, 121);
+        background-color: #FFF89C;
 
     }
 
     .content {
         padding: 5px;
         border: none;
-        background-color: gray;
-        font-family: Helvetica;
+        background-color: #909090;
         color: black;
         margin: 3px ;
         height: 150px;
@@ -104,24 +89,24 @@ styles.css
         width: 90%;
     }
 
-    /*desktop version*/
+    /*Large*/
     @media (min-width: 992px) {
-        .column-lg-4 {
+        .col-lg-4 {
             float: left;
             width: 33.33%;
         }
     }
 
-    /*tablet version*/
+    /*Medium*/
     @media (min-width: 768px) and (max-width: 991px) {
-        .column-md-6 {
+        .col-md-6 {
             float: left;
             width: 50%;
             margin-left: auto;
             margin-right: auto;
         }
 
-        .column-md-12 {
+        .col-md-12 {
             float: left;
             width: 100%;
             margin-left: auto;
@@ -129,9 +114,10 @@ styles.css
         }
     }
 
-    /*mobile version*/
+    /*Small*/
     @media (max-width: 767px) {
-        .colmn-sm-12 {
+        .col-sm-12 {
             float: left;
             width: 100%;
         }
+    }
